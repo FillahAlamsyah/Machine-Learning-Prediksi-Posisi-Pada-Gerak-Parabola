@@ -30,6 +30,7 @@ def PosisiParabolaKetikaT(t):
     x = v0x*t
 
     print(t,',',round(x,2),',',round(y,2))
+
 print( 't , x , y')
 for i in range(0,25):
     t = 0.1*i
