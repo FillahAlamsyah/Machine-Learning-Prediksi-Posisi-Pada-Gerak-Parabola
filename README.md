@@ -1,8 +1,10 @@
 # Machine Learning : Prediksi Posisi Pada Gerak Parabola
+
 1. Program Membuat Database : [GerakParabola.py](https://github.com/FillahAlamsyah/Machine-Learning-Prediksi-Posisi-Pada-Gerak-Parabola/blob/main/GerakParabola.py)
 2. File Database : [DatabaseGerakParabola.txt](https://github.com/FillahAlamsyah/Machine-Learning-Prediksi-Posisi-Pada-Gerak-Parabola/blob/main/DatabaseGerakParabola.txt)
 3. Program Prediksi : [PrediksiPosisiGerakParabola2.py](https://github.com/FillahAlamsyah/Machine-Learning-Prediksi-Posisi-Pada-Gerak-Parabola/blob/main/PrediksiPosisiGerakParabola2.py)
-
+> [!IMPORTANT]
+> Update Program Untuk Prediksi Python. Gunakan file yang dicantumkan di atas.
 ## Program Membuat Database
 ```python
 import numpy as np
