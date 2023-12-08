@@ -1,10 +1,40 @@
 # Machine Learning : Prediksi Posisi Pada Gerak Parabola
-
+> Project untuk membuat prediksi gerak parabola ketika input waktu t dimasukkan dengan database yang dibuat dari persamaan gerak parabola.
+> Terdapat 3 file utama agar project ini dapat berjalan secara utuh.
 1. Program Membuat Database : [GerakParabola.py](https://github.com/FillahAlamsyah/Machine-Learning-Prediksi-Posisi-Pada-Gerak-Parabola/blob/main/GerakParabola.py)
 2. File Database : [DatabaseGerakParabola.txt](https://github.com/FillahAlamsyah/Machine-Learning-Prediksi-Posisi-Pada-Gerak-Parabola/blob/main/DatabaseGerakParabola.txt)
 3. Program Prediksi : [PrediksiPosisiGerakParabola2.py](https://github.com/FillahAlamsyah/Machine-Learning-Prediksi-Posisi-Pada-Gerak-Parabola/blob/main/PrediksiPosisiGerakParabola2.py)
 > [!IMPORTANT]
-> Update Program Untuk Prediksi Python. Gunakan file yang dicantumkan di atas.
+> Gunakan file yang dicantumkan di atas agar terhindar dari error.
+## Persamaan gerak parabola
+1. Diketahui
+    - $x_0$ = Posisi Horizontal Awal
+    - $y_0$ = Posisi Vertikal Awal
+    - $v_0$ = Kecepatan Awal
+    - $\theta$ = Sudut
+
+3. Kecepatan Awal
+```math
+v_0x = v_0 \cos \theta
+```
+```math
+v_0y = v_0 \sin \theta
+```
+
+3. Kecepatan Saat t
+```math
+v_x(t) = v_0x = v_0 \cos \theta$$
+```
+```math
+v_y(t) = v_0y - gt = v_0 \sin \theta - gt
+```
+4. Posisi saat t
+```math
+x(t) = v_x t = v_0x t = v_0 \cos \theta t
+```
+```math
+y(t) = v_y t = v_0y t - gt = v_0 \sin \theta t - \frac{1}{2} gt^2
+```
 ## Program Membuat Database
 ```python
 import numpy as np
